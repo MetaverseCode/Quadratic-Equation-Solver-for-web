@@ -1,0 +1,103 @@
+button
+{
+  border-radius:20px;
+  outline:none;
+  color:white;
+  background:black;
+  border-width:0px;
+  font-family: roboto condensed;
+  width:200px;
+  height:80px;
+  font-size:50px;
+  transition-duration:0.4s;
+  margin-top:30px;
+  margin-left:120px
+  
+}
+button:active
+{
+  transform:scale(0.8)
+}
+#text1,#text2,#text3,#text4
+{
+  margin-left:120px;
+  border-radius:45px;
+  outline:none;
+  background:grey;
+  border-width:0px;
+  font-family: roboto condensed;
+  width:230px;
+  height:95px;
+  font-size:50px;
+  transition-duration:0.5s;
+  margin-top:20px;
+  text-align:center;
+  color:black;
+}
+::placeholder {
+  color:black
+}
+.p
+{
+  font-family:cursive;
+  font-size:50px
+}
+#dd,#negative,#ee
+{
+  font-family:roboto condensed;
+  font-size:35px;
+  margin-left:20px;
+  border-radius:15px;
+  background:black;
+  color:white;
+  width:30%;
+  padding:18px;
+}
+#ee{
+  width:70%;
+}
+input[type = "text"]:active
+{
+  transform:scale(0.8);
+}
+input[type = "number"]:active
+{
+  transform:scale(0.8);
+}
+#dd{
+  animation:suraj 8 alternate 4s;
+  position:relative ;
+}
+#dd:hover{
+  animation: suraj 800 alternate 4s;
+  position: relative 
+}
+@keyframes suraj{
+  from{left:0px}
+  to{left:100px}
+}
+suraj
+{
+  font-family: roboto condensed;
+  color:orange;
+  border-bottom: grey 3px dotted;
+  border-top: grey 3px solid;
+}
+.suraj{
+    border-bottom: grey 3px solid
+  
+}
+#clearbtn
+{
+  font-size:45px;
+  color:grey;
+  margin-left :30px;
+  transition :0.4s;
+}
+#clearbtn:active{
+  transform: scale(0.7)
+}
+.a{
+  background-color:#E8E8E8;
+  margin-top:30px;
+}
